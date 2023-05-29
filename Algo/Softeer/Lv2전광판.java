@@ -1,8 +1,10 @@
+package Softeer;
+
 import java.util.*;
 import java.io.*;
 
 
-public class Main
+public class Lv2전광판
 {
     static int T;
     static char[] A, B;

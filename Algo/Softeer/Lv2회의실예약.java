@@ -1,8 +1,10 @@
+package Softeer;
+
 import java.util.*;
 import java.io.*;
 
 
-public class Main
+public class Lv2회의실예약
 {
 
     static int N,M;
