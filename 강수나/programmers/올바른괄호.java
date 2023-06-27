@@ -11,9 +11,9 @@ class Solution {
             if (!stack.isEmpty() && c==')') {
                 stack.pop();
             }
-            else stack.push("(");
+            else stack.push(Character.toString(c)); //스택이 비었거나, 현재 문자가 ( 일 경우 스택에 push
         }
-        if (stack.size() > 0) answer = false;
+        if (stack.size() > 0) answer = false; //스택에 값이 들어있을 경우 false
 
         return answer;
     }
